@@ -24,17 +24,39 @@
                 <div class="interests">
                 <h2>Personal Interests</h2>
                     <p>I'm very curious. Currently, I'm <i>trying</i> to pursue a list of hobbies including:</p>
-                    <span class="list">
-                        <ol>
-                            <li>Typing</li>
-                            <li>Full stack dev</li>
-                            <li>Internship opportunities</li>
-                            <li>Working out</li>
-                        </ol>
-                    </span>
-                    <p>Other than these specific hobbies, I like spending time with friends, watching netflix, and gaming in my free time.</p>
+                    <ol>
+                        <li>Typing</li>
+                        <li>Full stack dev</li>
+                        <li>Internship opportunities</li>
+                        <li>Working out</li>
+                    </ol>
+                    <p>Other than <span>these specific hobbies</span>, <span>I like spending time with friends, watching netflix, and gaming in my free time.</span></p>
                     <aside>If anyone plays games or likes gymming, feel free to hit me up</aside>
                 </div>
+            </section>
+            <section>
+                <h2>Schedule</h2>
+                <table>
+                    <colgroup>
+                        <col>
+                        <col span="2">
+                        <col span="2">
+                    </colgroup>
+                    <tr>
+                        <th scope="col">Monday</th>
+                        <th scope="col">Tuesday</th>
+                        <th scope="col">Wednesday</th>
+                        <th scope="col">Thursday</th>
+                        <th scope="col">Friday</th>
+                    </tr>
+                    <tr>
+                        <td>TBD</td>
+                        <td>TBD</td>
+                        <td>TBD</td>
+                        <td>TBD</td>
+                        <td>TBD</td>
+                    </tr>
+                </table>
             </section>
             <section>
                 <div class="goals">
@@ -53,10 +75,36 @@
                 <p>Although these are not all of my goals (some are <code>private</code>), I hope to accomplish all of them before the end of this quarter.</p>
                 <div class="form">
                     <h3>What are some of your goals?:</h3>
-                    <form action="" method="GET" class="user-goals">
+                    <form method="GET" class="user-goals">
                         <div>
                             <label for="name">What's your name?</label>
                             <input type="text" name="name" id="name" required>
+                        </div>
+                        <div>
+                            <label for="email">What's your email?</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div>
+                            <input type="hidden" name="hidden" id="hidden">
+                        </div>
+                        <div>
+                            <label for="age">How old are you? (optional)</label>
+                            <input type="number" name="age" id="age">
+                        </div>
+                        <div>
+                            <label for="telnum">What's your number? (optional)</label>
+                            <input type="tel" name="tel" id="telnum">
+                        </div>
+                        <div>
+                            <fieldset>
+                                <legend>What's your major?</legend>
+                                <label for="cs">Computer Science</label>
+                                <input type="radio" id="cs" name="major" value="Computer Science">
+
+                                <label for="other">Other</label>
+                                <input type="radio" id="other" name="major" value="Other">
+                            </fieldset>
+                            <p>(sorry I know that there are a lot more majors than just CS, but I'm just too lazy to list all of them please forgive)</p>
                         </div>
                         <div>
                             <p>What year of college are you in?</p>
@@ -73,6 +121,36 @@
                         <div>
                             <label for="startdate">When did your quarter/semester start?</label>
                             <input type="date" name="startdate" id="startdate" required>
+                        </div>
+                        <div>
+                            <label for="feeling">How do you feel about corona?</label>
+                            <select id="feeling">
+                                <optgroup label="Better">
+                                    <option>It's been okay</option>
+                                    <option>It's better than before</option>
+                                    <option>I love online classes</option>
+                                </optgroup>
+                                <optgroup label="Worse">
+                                    <option>It's getting me down</option>
+                                    <option>It's been kinda boring</option>
+                                    <option>I wish quarantine was over already</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="communication">What's your preferred form of communication?</label>
+                            <input type="text" list="comms" id="communication" name="communication" />
+                            <datalist id="comms">
+                                <option value="Email">
+                                <option value="Text">
+                                <option value="Slack">
+                            </datalist>
+                        </div>
+                        <div>
+                            <input type="reset" name="reset" id="reset">
+                        </div>
+                        <div>
+                            <input value="Submit" type="button" name="submit" id="submit">
                         </div>
                     </form>
                 </div>
@@ -91,14 +169,14 @@
                 <img src="https://www.creativefabrica.com/wp-content/uploads/2018/11/Video-icon-vector-by-rudezstudio-580x386.jpg" width=200 alt="Red youtube video button graphic">
             </picture>
             <br>
-            <iframe id="Rick rolled"
+            <iframe id="Rickrolled"
             title="Get rick rolled"
             height="200"
             width="400"
             src="https://www.youtube.com/embed/dQw4w9WgXcQ">
             </iframe>
             <video controls width="400" height="200">
-                <source src="https://media1.tenor.com/images/a1059f2abf295e91f58cfb287cd101b5/tenor.gif?itemid=15325836" type="video/gif" autoplay="true">
+                <source src="https://media1.tenor.com/images/a1059f2abf295e91f58cfb287cd101b5/tenor.gif?itemid=15325836" type="video/gif">
                     Video playback does not work.
             </video>
             <audio controls src="https://www2.iis.fraunhofer.de/AAC/ChID-BLITS-EBU-Narration.mp4">
@@ -108,15 +186,17 @@
                 Empty canvas.
             </canvas>
             <p>Empty canvas ^</p>
-            <svg viewBox="0 0 300 100" xlmns="http://www.w3.org/2000/svg">
-               <circle cx="50" cy="50" r="40" /> 
+            <svg viewBox="0 0 300 100">
+               <circle cx="50" cy="50" r="40"/>
             </svg>
 
-
+            <label for="comments">Tell me how my website looks and what I can improve:</label>
+            <textarea id="comments" name="comments" rows="3" cols="33">
+                You could improve it by...
+            </textarea>
         </main>
-
         <footer>
-
+            <p>My little footer</p>
         </footer>
     </body>
 </html>
