@@ -15,12 +15,24 @@ div h1 {
     border-style:solid;
     background-color:whitesmoke;
     border-radius: 10ex 10ex 10em 10em;
+    margin: 10px auto 10px;
+    width: 200px;
+    height: 150px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
 }
 .interests, .form{
     border-style: solid;
     border-radius: 10% 10% 50% 70%;
     border-color: whitesmoke;
     border-width: 1ch;
+    margin-top: 1cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-bottom: 1cm;
+    padding: auto;
 }
 label {
     background-color: white;
