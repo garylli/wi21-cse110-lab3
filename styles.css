@@ -11,22 +11,31 @@ div h1 {
     color:#000;
 }
 #comments {
-    color: hsl(241, 26, 26)
+    color: hsl(241, 26, 26);
+    border-style:solid;
+    background-color:whitesmoke;
+    border-radius: 10ex 10ex 10em 10em;
 }
 .interests, .form{
-
+    border-style: solid;
+    border-radius: 10% 10% 50% 70%;
+    border-color: whitesmoke;
+    border-width: 1ch;
 }
 label {
-    background-color: white
+    background-color: white;
 }
 [attribute=for] {
-
+    border-style: none;
+    border-width: 0cm;
 }
 p:hover {
-
+    border-style:hidden;
+    border-width: 0mm;
 }
 form.user-goals {
-
+    border-style:hidden;
+    border-width: 0in;
 }
 #feeling > option {
 
