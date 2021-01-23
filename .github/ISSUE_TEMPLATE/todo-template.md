@@ -1,7 +1,7 @@
 ---
 name: TODO Template
 about: A template for todos/upcoming features
-title: ''
+title: 'TODO: '
 labels: ''
 assignees: garylli
 
