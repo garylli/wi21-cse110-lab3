@@ -7,7 +7,6 @@ assignees: garylli
 
 ---
 
-# Todo:
 ### Date:
 
 ## Description:
