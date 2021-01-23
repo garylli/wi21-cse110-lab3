@@ -1,6 +1,11 @@
 * {
 
 }
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
 body { /* changes all body text to black */
     color:black;
 }
@@ -10,7 +15,17 @@ h1 {
 div h1 {
     color:#000;
 }
+.goals:hover {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+.goals:active {
+    background-color: #34ebc6; 
+}
 #comments {
+    position: relative;
+    top: 0px;
     font-family: "Roboto";
     color: hsl(241, 26, 26);
     border-style:solid;
@@ -42,6 +57,9 @@ label {
 [attribute=for] {
     border-style: none;
     border-width: 0cm;
+}
+video {
+    max-width:75%;
 }
 p:hover {
     border-style:hidden;
