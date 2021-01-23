@@ -23,6 +23,12 @@ div h1 {
 .goals:active {
     background-color: #34ebc6; 
 }
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 #comments {
     position: relative;
     top: 0px;
