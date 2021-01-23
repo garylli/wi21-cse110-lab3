@@ -1,0 +1,39 @@
+* {
+
+}
+body {
+    color:green;
+}
+h1 {
+   color:rgb(100,255,255);
+}
+div h1 {
+    color:#000;
+}
+#comments {
+    color: hsl(241, 26, 26)
+}
+.interests, .form{
+
+}
+label {
+    background-color: white
+}
+[attribute=for] {
+
+}
+p:hover {
+
+}
+form.user-goals {
+
+}
+#feeling > option {
+
+}
+figcaption + blockquote {
+
+}
+video ~ source {
+
+}
