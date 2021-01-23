@@ -23,6 +23,12 @@ div h1 {
 .goals:active {
     background-color: #34ebc6; 
 }
+.goals {
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .form {
     display: flex;
     flex-direction: column;
