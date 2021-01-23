@@ -1,8 +1,8 @@
 * {
 
 }
-body {
-    color:green;
+body { /* changes all body text to black */
+    color:black;
 }
 h1 {
    color:rgb(100,255,255);
