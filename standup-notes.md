@@ -1,4 +1,4 @@
-# Catch me outside's Week
+# Our team's week:
 
 ## Monday
 ### Tasks Accomplished
