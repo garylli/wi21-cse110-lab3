@@ -4,6 +4,7 @@
 ### Tasks Accomplished
 - Task
   - Name
+  - Time
 
 ### Tasks In Progress
 - Task
