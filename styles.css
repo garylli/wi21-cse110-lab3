@@ -82,12 +82,17 @@ form.user-goals {
     border-style:hidden;
     border-width: 0in;
 }
+@media only screen and (max-width:1000px) {
+    video {
+        content: 0px;
+    }
+}
 #feeling > option {
-
+    border-style: none;
 }
 figcaption + blockquote {
-
+    border-style: none;
 }
 video ~ source {
-
+    border-style: hidden;
 }
