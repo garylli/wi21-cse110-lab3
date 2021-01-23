@@ -11,6 +11,7 @@ div h1 {
     color:#000;
 }
 #comments {
+    font-family: "Roboto";
     color: hsl(241, 26, 26);
     border-style:solid;
     background-color:whitesmoke;
@@ -36,6 +37,7 @@ div h1 {
 }
 label {
     background-color: white;
+    display: inline-block;
 }
 [attribute=for] {
     border-style: none;
@@ -46,6 +48,7 @@ p:hover {
     border-width: 0mm;
 }
 form.user-goals {
+    display: block flex;
     border-style:hidden;
     border-width: 0in;
 }
